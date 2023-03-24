@@ -1,3 +1,6 @@
+<?php 
+    include("connection.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -73,13 +76,14 @@
                                 </span>
                                 <div class="dropdown-menu p-0 m-0">
                                     <form>
-                                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                        <input class="form-control" type="search" placeholder="Search"
+                                            aria-label="Search">
                                     </form>
                                 </div>
                             </div>
                         </div>
 
-                      
+
                     </div>
                 </nav>
             </div>
@@ -102,7 +106,7 @@
                             <li><a href="./index2.html">Dashboard 2</a></li>
                         </ul>
                     </li>
-                
+
                     <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
                                 class="icon icon-app-store"></i><span class="nav-text">Albam</span></a>
                         <ul aria-expanded="false">
@@ -111,7 +115,7 @@
                         </ul>
                     </li>
 
-                
+
                     <li><a class="has-arrow" href="javascript:void()" aria-expanded="false"><i
                                 class="icon icon-app-store"></i><span class="nav-text">Artest</span></a>
                         <ul aria-expanded="false">
@@ -250,47 +254,47 @@
                             ';
                         }
                     ?>
+                </div>
             </div>
         </div>
-    </div>
-    
-    <!--**********************************
+
+        <!--**********************************
         Main wrapper end
     ***********************************-->
 
-    <!--**********************************
+        <!--**********************************
         Scripts
     ***********************************-->
-    <!-- Required vendors -->
-    <script src="./vendor/global/global.min.js"></script>
-    <script src="./js/quixnav-init.js"></script>
-    <script src="./js/custom.min.js"></script>
+        <!-- Required vendors -->
+        <script src="./vendor/global/global.min.js"></script>
+        <script src="./js/quixnav-init.js"></script>
+        <script src="./js/custom.min.js"></script>
 
 
-    <!-- Vectormap -->
-    <script src="./vendor/raphael/raphael.min.js"></script>
-    <script src="./vendor/morris/morris.min.js"></script>
+        <!-- Vectormap -->
+        <script src="./vendor/raphael/raphael.min.js"></script>
+        <script src="./vendor/morris/morris.min.js"></script>
 
 
-    <script src="./vendor/circle-progress/circle-progress.min.js"></script>
-    <script src="./vendor/chart.js/Chart.bundle.min.js"></script>
+        <script src="./vendor/circle-progress/circle-progress.min.js"></script>
+        <script src="./vendor/chart.js/Chart.bundle.min.js"></script>
 
-    <script src="./vendor/gaugeJS/dist/gauge.min.js"></script>
+        <script src="./vendor/gaugeJS/dist/gauge.min.js"></script>
 
-    <!--  flot-chart js -->
-    <script src="./vendor/flot/jquery.flot.js"></script>
-    <script src="./vendor/flot/jquery.flot.resize.js"></script>
+        <!--  flot-chart js -->
+        <script src="./vendor/flot/jquery.flot.js"></script>
+        <script src="./vendor/flot/jquery.flot.resize.js"></script>
 
-    <!-- Owl Carousel -->
-    <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
+        <!-- Owl Carousel -->
+        <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
 
-    <!-- Counter Up -->
-    <script src="./vendor/jqvmap/js/jquery.vmap.min.js"></script>
-    <script src="./vendor/jqvmap/js/jquery.vmap.usa.js"></script>
-    <script src="./vendor/jquery.counterup/jquery.counterup.min.js"></script>
+        <!-- Counter Up -->
+        <script src="./vendor/jqvmap/js/jquery.vmap.min.js"></script>
+        <script src="./vendor/jqvmap/js/jquery.vmap.usa.js"></script>
+        <script src="./vendor/jquery.counterup/jquery.counterup.min.js"></script>
 
 
-    <script src="./js/dashboard/dashboard-1.js"></script>
+        <script src="./js/dashboard/dashboard-1.js"></script>
 
 </body>
 
