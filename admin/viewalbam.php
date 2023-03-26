@@ -18,6 +18,8 @@
             <tr>
                 <th>ID</th>
                 <th>NAME</th>
+                <th>Iamges</th>
+                
                 <th>ACTION</th>
             </tr>
             <?php 

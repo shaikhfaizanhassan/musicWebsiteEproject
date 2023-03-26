@@ -20,20 +20,39 @@
                 <th>image</th>
                 <th>ACTION</th>
             </tr>
-            <tr>
-                <td>1</td>
-                <td>My ALI</td>
-                <td>ALI@GMAIL.COM</td>
-                <td>1234</td>
-                <td>MALE</td>
-                <td>MALE</td>
-                <td>MALE</td>
+            <?php 
+            $fetch = mysqli_query($con,"select * from  music");
+            while($row = mysqli_fetch_array($fetch))
+            {
+                echo '   
+                <tr>
+                    <td>'.$row[0].'</td>
+                    <td>'.$row[1].'</td>
+                    <td>'.$row[2].'</td>
+                    <td>'.$row[3].'</td>
+                    <td>
+                    <audio controls>
+                        <source src="uploadmusic/'.$row[4].'" type="audio/mp3">
+                    </audio>
+                    </td>
+                    <td>
+                    <video controls style="width:200px">
+                        <source src="uploadvideo/'.$row[5].'" type="video/mp4" >
+                    </video>
+                    </td>
+                    
+                    <td><img src="uploadmusicbanner/'.$row[6].'" style="width:50px"></td>
+                    
+                    
                 <td>
-                    <a href="" class="btn btn-primary">Edit</a>
-                    <a href="" class="btn btn-danger">Delete</a>
-                </td>
-                
+                    <a href="" class="btn btn-success btn-sm">Edit</a>
+                    <a href="" class="btn btn-danger btn-sm">Delete</a>
+                    
+            </td>
             </tr>
+            ';
+            }
+        ?>
         </table>
     </div>
 </body>
